@@ -1,0 +1,47 @@
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Vite Build Output =====
+dist/
+build/
+.vite/
+
+# ===== Environment Files =====
+.env
+.env.local
+.env.*.local
+
+# ===== Editor & OS Files =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===== VSCode & IDE Settings =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== Logs =====
+*.log
+logs/
+debug.log
+
+# ===== Misc =====
+*.zip
+*.tar.gz
+*.rar
+
+# ===== Testing / Coverage =====
+coverage/
+*.lcov
+
+# ===== Optional =====
+# Jika kamu menggunakan TypeScript
+*.tsbuildinfo

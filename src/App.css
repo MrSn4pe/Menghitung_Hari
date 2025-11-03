@@ -1,0 +1,95 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00d4ff;
+}
+
+.input-section {
+  display: inline-block;
+  text-align: left;
+  background: #1b1b1b;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.input-group {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  vertical-align: middle;
+  margin-right: 6px;
+  color: #00d4ff;
+}
+
+button svg {
+  color: white;
+}
+
+label {
+  width: 120px;
+  font-weight: 500;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 6px;
+  border: none;
+  background: #222;
+  color: white;
+  margin-left: 10px;
+  flex: 1;
+}
+
+input[type="time"] {
+  max-width: 120px;
+}
+
+button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #005ec7;
+}
+
+.swap-btn {
+  background-color: #444;
+  margin-top: 10px;
+}
+
+.swap-btn:hover {
+  background-color: #555;
+}
+
+.result {
+  margin-top: 25px;
+  font-size: 1.2em;
+  color: #fff;
+}
